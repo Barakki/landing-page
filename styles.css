@@ -91,4 +91,13 @@ button {
     display: flex;
     flex-flow: column wrap;
     background-color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 48px;
 }
