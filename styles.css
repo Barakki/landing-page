@@ -42,7 +42,8 @@ a{
 }
 
 a,
-.secondary-text {
+.secondary-text,
+.cta-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -69,15 +70,16 @@ a,
 
 button {
     cursor: pointer;
-}
-
-.sign-up {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: none;
     border-radius: 8px;
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 16px;
     padding: 8px 32px;
+}
+
+.main-card .sign-up {
+    border: none;
     margin-top: 8px;
 }
 
@@ -125,6 +127,7 @@ button {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+    font-weight: 300;
 }
 /* for .img inside .card */
 .card .img {
@@ -132,6 +135,61 @@ button {
     height: 160px;
     border: 4px #3882F6 solid;
     border-radius: 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thor {
+    min-width: min-content;
+    max-width: 788px;
+    margin: 120px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+    margin: 96px 192px;
+    border-radius: 8px;
+    flex: 1;
+    gap: 32px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bubble .sign-up {
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
